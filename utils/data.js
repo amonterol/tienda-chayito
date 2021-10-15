@@ -2,6 +2,7 @@ const data = {
   products: [
     {
       name: "Free Shirt",
+      slug: "free-shirt",
       category: "Shirts",
       image: "/images/shirtBlancaMangaLarga.jpg",
       price: 70,
@@ -13,6 +14,7 @@ const data = {
     },
     {
       name: "Fit Shirt",
+      slug: "fit-shirt",
       category: "Shirts",
       image: "/images/shirtCuadrosMangaLarga.jpg",
       price: 80,
@@ -24,6 +26,7 @@ const data = {
     },
     {
       name: "Slim Shirt",
+      slug: "slim-shirt",
       category: "Shirts",
       image: "/images/shirtRosadaMangaLarga.jpg",
       price: 90,
@@ -35,6 +38,7 @@ const data = {
     },
     {
       name: "Golf Pants",
+      slug: "golf-pants",
       category: "Pants",
       image: "/images/pantsHombreBlanco.jpg",
       price: 90,
@@ -46,6 +50,7 @@ const data = {
     },
     {
       name: "Fit Pants",
+      slug: "fit-pants",
       category: "Pants",
       image: "/images/pantsHombreNegro.jpg",
       price: 95,
@@ -57,6 +62,7 @@ const data = {
     },
     {
       name: "Classic Pants",
+      slug: "classic-pants",
       category: "Pants",
       image: "/images/pantalon2.png",
       price: 75,
@@ -68,6 +74,7 @@ const data = {
     },
     {
       name: "Vestido Casual Amarillo",
+      slug: "vestido-casual-amarillo",
       category: "Vestido",
       image: "/images/VestidoCasualAmarillo1.png",
       price: 75,
@@ -79,6 +86,7 @@ const data = {
     },
     {
       name: "Vestido Casual Verde",
+      slug: "vestido-casual-verde",
       category: "Vestido",
       image: "/images/VestidoLinoVerde1.png",
       price: 75,
@@ -90,6 +98,7 @@ const data = {
     },
     {
       name: "Vestido Casual Azul",
+      slug: "vestido-casual-azul",
       category: "Vestido",
       image: "/images/VestidoCasualAzul1.png",
       price: 75,
@@ -100,7 +109,8 @@ const data = {
       description: "Vestido casual azul para toda ocasion",
     },
     {
-      name: "Vestido Casual Verde",
+      name: "Vestido Casual Negro",
+      slug: "vestido-casual-negro",
       category: "Vestido",
       image: "/images/VestidoCasualNegro1.png",
       price: 75,
@@ -112,6 +122,7 @@ const data = {
     },
     {
       name: "Vestido Playa Amarillo",
+      slug: "vestido-playa-amarillo",
       category: "Vestido",
       image: "/images/VestidoPlayaAmarillo1.png",
       price: 75,
@@ -123,6 +134,7 @@ const data = {
     },
     {
       name: "Vestido Playa Rosado",
+      slug: "vestido-playa-rosado",
       category: "Vestido",
       image: "/images/VestidoPlayaRosado1.png",
       price: 75,
@@ -134,6 +146,7 @@ const data = {
     },
     {
       name: "Vestido Bohemio Blue Floral",
+      slug: "vestido-bohemio-blue-floral",
       category: "Vestido",
       image: "/images/VestidoBohemioBlueFloral1.png",
       price: 75,
@@ -145,6 +158,7 @@ const data = {
     },
     {
       name: "Vestido Bohemio Blanco",
+      slug: "vestido-bohemio-blanco",
       category: "Vestido",
       image: "/images/VestidoBohemioBlanco1.png",
       price: 75,
@@ -156,6 +170,7 @@ const data = {
     },
     {
       name: "Vestido Merry Azul",
+      slug: "vestido-merry-azul",
       category: "Vestido",
       image: "/images/VestidoMerryAzul1.png",
       price: 75,
@@ -167,6 +182,7 @@ const data = {
     },
     {
       name: "Vestido Midi Rojo",
+      slug: "vestido-midi-rojo",
       category: "Vestido",
       image: "/images/VestidoMidiRojo1.png",
       price: 75,
@@ -178,6 +194,7 @@ const data = {
     },
     {
       name: "Vestido Feynan Negro",
+      slug: "vestido-feynan-negro",
       category: "Vestido",
       image: "/images/VestidoFeynanNegro1.png",
       price: 75,
