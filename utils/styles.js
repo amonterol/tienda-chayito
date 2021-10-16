@@ -18,13 +18,22 @@ const useStyles = makeStyles({
   main: {
     minHeight: "80vh",
   },
-  section: {
-    marginTop: 10,
-    marginBottom: 10,
-  },
   footer: {
     marginTop: 10,
     textAlign: "center",
   },
+  section: {
+    marginTop: 10,
+    marginBottom: 10,
+  },
+  form: {
+    maxWidth: 800,
+    margin: "0 auto",
+  },
+  navbarButton: {
+    color: "#ffffff",
+    textTransform: "initial",
+  },
 });
+
 export default useStyles;
